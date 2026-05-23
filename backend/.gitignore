@@ -1,0 +1,53 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Archivos temporales
+tmp/
+temp/
+
+# Configuración local sensible
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
+
+# Publicación
+publish/
+wwwroot/
+
+# Entity Framework
+*.dbmdl
+*.jfm
+*.psess
+*.vsp
+*.vspx
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Rider
+*.DotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
